@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Kobe 4 Product Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <img id="header-img" src="https://ofour.com/wp-content/uploads/2020/03/17.jpg" alt="Kobe 4 Logo">
+        <nav id="nav-bar">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#video" class="nav-link">Video</a>
+            <a href="#form" class="nav-link">Subscribe</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="features">
+            <h2>Kobe 4 Features</h2>
+            <p>The Kobe 4 shoes are designed for performance, providing superior traction and support.</p>
+            <p>Lightweight materials enhance speed while maintaining durability.</p>
+            <p>Available in multiple colorways to match your style.</p>
+        </section>
+
+        <h2>Watch the Product Video</h2>
+        <iframe 
+            id="video" 
+            src="https://www.youtube.com/embed/eqcenYqJVTE?si=66Du1V4VSLkmg7zA" 
+            width="560" 
+            height="315" 
+            title="Kobe 4 Product Video" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+
+        <!-- New Pricing Section -->
+        <section id="pricing">
+            <h2>Pricing Options</h2>
+            <div class="price-option">
+                <h3>Standard Model</h3>
+                <p>Price: $120.00</p>
+                <p>Features: Basic color options, lightweight design.</p>
+            </div>
+            <div class="price-option">
+                <h3>Deluxe Model</h3>
+                <p>Price: $150.00</p>
+                <p>Features: Enhanced cushioning, additional color options.</p>
+            </div>
+            <div class="price-option">
+                <h3>Premium Model</h3>
+                <p>Price: $180.00</p>
+                <p>Features: Custom designs, superior performance technology.</p>
+            </div>
+        </section>
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+            <h2>Subscribe for Updates</h2>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            <input type="submit" id="submit" value="Subscribe">
+        </form>
+    </main>
+</body>
+</html>
